@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  host: "localhost"
+
+lcu:
+  port: 2999
+  base_url: "https://127.0.0.1:%d"
+
+cache:
+  enabled: true
+  ttl: 300  # 缓存时间（秒）
+
+analysis:
+  match_history_limit: 20  # 分析最近多少场比赛
+  min_games_for_stats: 10  # 最少需要多少场比赛才进行统计分析 
